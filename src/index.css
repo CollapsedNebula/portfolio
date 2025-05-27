@@ -1,10 +1,27 @@
 @font-face {
-    font-family: 'AstaSans-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/AstaSans-Bold.woff2') format('woff2');
-    font-weight: 700;
+    /* light */
+    font-family: "AstaSans-Light";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/AstaSans-Light.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    /* regular */
+    font-family: "AstaSans-Regular";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/AstaSans-Regular.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    /* bold */
+    font-family: "AstaSans-ExtraBold";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/AstaSans-ExtraBold.woff2") format("woff2");
     font-style: normal;
 }
 
 body {
-  font-family: 'AstaSans-Bold';
+    font-family: "AstaSans-Regular";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }

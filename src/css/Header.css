@@ -1,0 +1,29 @@
+#div-header {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+#div-header-title {
+    font-size: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#div-header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 2rem;
+}
+
+#div-header-buttons button {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: AstaSans-Light;
+    border-color: transparent;
+    background-color: transparent;
+}
