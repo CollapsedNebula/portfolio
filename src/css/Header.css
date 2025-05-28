@@ -5,6 +5,7 @@
     justify-content: space-between;
     box-sizing: border-box;
     flex-wrap: wrap;
+    background-color: #e0eaf0;
 }
 
 #div-header-title {
