@@ -1,9 +1,33 @@
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+
 #flex-title {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #title {
     font-size: 4rem;
     font-family: AstaSans-ExtraBold;
+    min-width: 10ch;        /* 글자 수에 맞게 최소 너비 고정 (예: 12글자면 12ch) */
+    white-space: pre;       /* 공백과 줄바꿈을 그대로 표시, 한 줄 유지 */
+    text-align: left;
+}
+
+#subtitle {
+    font-size: 1rem;
+    font-family: AstaSans-Regular;
+    margin-top: 0.5rem;
+    letter-spacing: 0.5rem;
+    min-width: 20ch;      /* 글자 수에 맞게 최소 너비 고정 (예: 20글자면 20ch) */
+    white-space: pre;     /* 줄바꿈 방지, 공백 유지 */
+    text-align: center;
 }

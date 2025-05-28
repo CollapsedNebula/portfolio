@@ -1,0 +1,61 @@
+#flex-cube {
+    width: 4rem;
+    height: 4rem;
+    padding: 4rem;
+    perspective: 1000px;
+}
+
+#cube {
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 1s;
+}
+
+#face-front,
+#face-back,
+#face-left,
+#face-right,
+#face-top,
+#face-bottom {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #afafaf;
+    font-size: 1rem;
+    user-select: none;
+    border: 2px solid #afafaf;
+    box-sizing: border-box;
+}
+
+#face-front {
+    transform: translateZ(2rem);
+    font-family: AstaSans-ExtraBold;
+}
+
+#face-back {
+    transform: rotateY(180deg) translateZ(2rem);
+}
+
+#face-left {
+    transform: rotateY(-90deg) translateZ(2rem);
+}
+
+#face-right {
+    transform: rotateY(90deg) translateZ(2rem);
+}
+
+#face-top {
+    transform: rotateX(90deg) translateZ(2rem);
+}
+
+#face-bottom {
+    transform: rotateX(-90deg) translateZ(2rem);
+}
+
