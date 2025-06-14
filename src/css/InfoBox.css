@@ -1,0 +1,30 @@
+#info-box {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#info-box h3 {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#info-box p {
+    padding-left: 10px;
+    color: #666;
+}
+
+#info-boxbox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#info-icon {
+    width: 36px;
+    height: 36px;
+    padding-left: 12px;
+}

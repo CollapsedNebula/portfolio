@@ -1,18 +1,23 @@
 #div-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100vw;
-    padding: 20px;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     flex-wrap: wrap;
-    background-color: #e0eaf0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 #div-header-title {
     font-size: 2rem;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: AstaSans-ExtraBold;
 }
 
 #div-header-buttons {
@@ -20,6 +25,7 @@
     align-items: center;
     gap: 8px;
     font-size: 1.5rem;
+    padding-right: 20px;
 }
 
 #div-header-buttons button {
