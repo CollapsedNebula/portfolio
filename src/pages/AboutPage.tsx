@@ -11,13 +11,13 @@ function AboutPage() {
                 </section>
                 <section>
                     <h2>기술</h2>
-                    <InfoBox title="React" content="2.5★" icon="../../public/React.svg" />
-                    <InfoBox title="Tailwind CSS" content="2.5★" icon="../../public/TailwindCSS.svg" />
-                    <InfoBox title="Typescript / Javascript" content="2.2★" icon="../../public/TypeScript.svg" />
-                    <InfoBox title="HTML5" content="2.5★" icon="../../public/HTML5.svg" />
-                    <InfoBox title="CSS3" content="3.0★" icon="../../public/CSS3.svg" />
-                    <InfoBox title="MySQL" content="2.0★" icon="../../public/MySQL.svg" />
-                    <InfoBox title="Git / Github" content="2.0★" icon="../../public/git.svg" />
+                    <InfoBox title="React" content="2.5★" icon="/React.svg" />
+                    <InfoBox title="Tailwind CSS" content="2.5★" icon="/TailwindCSS.svg" />
+                    <InfoBox title="Typescript / Javascript" content="2.2★" icon="/TypeScript.svg" />
+                    <InfoBox title="HTML5" content="2.5★" icon="/HTML5.svg" />
+                    <InfoBox title="CSS3" content="3.0★" icon="/CSS3.svg" />
+                    <InfoBox title="MySQL" content="2.0★" icon="/MySQL.svg" />
+                    <InfoBox title="Git / Github" content="2.0★" icon="/git.svg" />
                 </section>
             </div>
         </>
